@@ -1,7 +1,7 @@
 Walker[] walkers = new Walker[10];
 
 PVector wind = new PVector(0.15, 0);
-PVector gravity = new PVector(0, -0.4);
+PVector gravity = new PVector(-0, -0.4);
 
 void setup()
 {
@@ -18,7 +18,7 @@ void setup()
 
 void draw()
 {
-    background(80);
+    background(255);
     
     for (int i = 0; i < walkers.length; i++) {
       

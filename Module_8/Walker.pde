@@ -4,7 +4,7 @@ public class Walker
   public PVector velocity = new PVector();
   public PVector acceleration = new PVector();
   
-  public float velocityLimit = 15;
+  public float velocityLimit = 20;
   public float scale = 15;
   public float mass = 1;
   
@@ -35,7 +35,7 @@ public class Walker
   {
     fill(r, g, b, 150); 
     stroke(0);
-    strokeWeight(1);
+    strokeWeight(0);
     
     circle(position.x, position.y, this.scale); 
   }
